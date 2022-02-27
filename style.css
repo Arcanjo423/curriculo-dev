@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+font-family: 'Poppins';
+}
+
+html{
+margin: 20px 200px;
+background: #626262;
+}
+
+body{
+background: #fff;
+padding: 20px 50px;
+margin: 0 50px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.65);
+}
+
+header{
+display: flex;
+justify-content: space-between;
+margin: 16px;
+}
+
+header ul li{
+list-style: none;
+}
+
+.container-l li{
+font-size: 1rem;
+font-weight: 600;
+padding: 5px;
+color: #777;
+}
+
+.container-r li{
+font-size: 1.3rem;
+font-weight: 600;
+cursor: pointer;
+padding: 2px;
+color: #777;
+text-transform: none;
+}
+
+.container-r li i{
+font-style: normal;
+}
+
+.container-r li a{
+text-decoration: none;
+color: #777;
+}
+
+/* Efect hover start */
+.container-r .git:hover{
+transition: 0.5s;
+transform: scale(1.2);
+background: -webkit-linear-gradient(#171515, #171515, #171515);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.container-r .link:hover{
+transition: 0.5s;
+transform: scale(1.2);
+background: -webkit-linear-gradient(#0e76a8, #0e76a8, #0e76a8);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.container-r .inst:hover{
+transition: 0.5s;
+transform: scale(1.2);
+background: -webkit-linear-gradient(#515bd4, #8134af, #dd2a7b);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/* Efect hover end */
+
+main ul li{
+padding: 3px;
+}
+
+.name h1{
+text-align: center;
+margin: 21px 0;
+font-size: 1.8rem;
+}
+
+.name h3{
+margin: 18px 0;
+}
+
+.name p{
+margin: 16px 0;
+}
+
+.inf-sft h3{
+border-bottom: 1px solid #000;
+}
+
+.inf-sft span i{
+font-size: 1rem;
+}
+
+.inf-sft ul{
+padding-inline-start: 40px;
+margin: 16px;
+}
+
+.inf-sft button{
+background: #777;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.inf-sft a{
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 0.7rem;
+font-weight: 400;
+cursor: pointer;
+}
+
+.inf-sft button:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+}
+
+.certf img{
+height: 100%;
+width: 175px;
+margin: 20px;
+}
+
+.certf h3{
+border-bottom: 1px solid #000;
+margin: 18px 0;
+}
+
+.certf .content{
+border-bottom: 1px solid #dedede;
+margin: 10px;
+padding: 10px;
+display: flex;
+flex-direction: row;
+}
+
+.box{
+margin: 20px;
+padding: 10px;
+}
+
+.box h4{
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.box p{
+font-size: 1rem;
+font-weight: 500;
+}
+
+.ps h3{
+border-bottom: 1px solid #000;
+margin: 18px 0;
+}
+
+.ps ul{
+padding-inline-start: 40px;
+margin: 16px;
+}
+
+.ps li{
+padding: 3px;
+}
+
+
+
+
+
+/* Media Screen start */
+
+/* Desktop Screen and Notebook */
+@media screen and (max-width: 1920px) {
+    html{
+        width: 80%;
+        margin: 50px 200px;
+    }
+
+    body{
+        padding: 50px 100px;
+        margin: 0 50px;
+    }
+
+    .container-l ul li{
+        font-size: 1.7rem;
+    }
+
+    .container-r ul li{
+        font-size: 2rem;
+    }
+
+    .name h1{
+        font-size: 3rem;
+    }
+
+    .inf-sft h3{
+        font-size: 2rem;
+    }
+
+    .inf-sft span i{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft p{
+        font-size: 1.7rem;
+    }
+
+    .inf-sft ul li{
+        font-size: 1.7rem;
+    }
+
+    .inf-sft button{
+        padding: 10px 20px;
+    }
+
+    .inf-sft button a{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .ps h3{
+        font-size: 2rem;
+    }
+
+    .ps ul li{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    html{
+        width: 80%;
+        margin: 50px 200px;
+    }
+
+    body{
+        padding: 50px 80px;
+        margin: 0 50px;
+    }
+
+    .container-l ul li{
+        font-size: 1.5rem;
+    }
+
+    .container-r ul li{
+        font-size: 1.7rem;
+    }
+
+    .name h1{
+        font-size: 2.5rem;
+    }
+
+    .inf-sft h3{
+        font-size: 1.9rem;
+    }
+
+    .inf-sft span i{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft p{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft ul li{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft button{
+        padding: 7px 15px;
+    }
+
+    .inf-sft button a{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .ps h3{
+        font-size: 1.9rem;
+    }
+
+    .ps ul li{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    html{
+        width: 75%;
+        margin: 50px 200px;
+    }
+
+    body{
+        padding: 50px 70px;
+        margin: 0 50px;
+    }
+
+    .container-l ul li{
+        font-size: 1.4rem;
+    }
+
+    .container-r ul li{
+        font-size: 1.6rem;
+    }
+
+    .name h1{
+        font-size: 2.3rem;
+    }
+
+    .inf-sft h3{
+        font-size: 1.7rem;
+    }
+
+    .inf-sft span i{
+        font-size: 1.3rem;
+    }
+
+    .inf-sft p{
+        font-size: 1.4rem;
+    }
+
+    .inf-sft button{
+        padding: 7px 15px;
+    }
+
+    .inf-sft button a{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .inf-sft ul li{
+        font-size: 1.4rem;
+    }
+
+    .ps h3{
+        font-size: 1.7rem;
+    }
+
+    .ps ul li{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    html{
+        width: 85%;
+        margin: 20px 100px;
+    }
+
+    body{
+        padding: 30px 50px;
+        margin: 0 50px;
+    }
+
+    .container-l ul li{
+        font-size: 1.3rem;
+    }
+
+    .container-r ul li{
+        font-size: 1.5rem;
+    }
+
+    .name h1{
+        font-size: 2rem;
+    }
+
+    .inf-sft h3{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft span i{
+        font-size: 1.2rem;
+    }
+
+    .inf-sft p{
+        font-size: 1.3rem;
+    }
+
+    .inf-sft button{
+        padding: 5px 10px;
+    }
+
+    .inf-sft button a{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .inf-sft ul li{
+        font-size: 1.3rem;
+    }
+
+    .ps h3{
+        font-size: 1.5rem;
+    }
+
+    .ps ul li{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    html{
+        width: 80%;
+        margin: 20px 100px;
+    }
+
+    body{
+        padding: 30px 50px;
+        margin: 0 50px;
+    }
+
+    .container-l ul li{
+        font-size: 1rem;
+    }
+
+    .container-r ul li{
+        font-size: 1.3rem;
+    }
+
+    .container-r li a{
+        opacity: 0;
+        font-size: 14px;
+        margin-left: -50px;
+    }
+
+    .name h1{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft h3{
+        font-size: 1.3rem;
+    }
+
+    .inf-sft span i{
+        font-size: 1rem;
+    }
+
+    .inf-sft p{
+        font-size: 0.9rem;
+    }
+
+    .inf-sft button{
+        padding: 5px 10px;
+    }
+
+    .inf-sft button a{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .inf-sft ul li{
+        font-size: 1rem;
+    }
+
+    .ps h3{
+        font-size: 1.3rem;
+    }
+
+    .ps ul li{
+        font-size: 1rem;
+    }
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 768px){
+    html{
+        width: 75%;
+        margin: 20px 100px;
+    }
+
+    body{
+        padding: 15px 30px;
+        margin: 0 30px;
+    }
+
+    header{
+        margin: 7px;
+    }
+
+    .container-l ul li{
+        font-size: 0.85rem;
+    }
+
+    .container-r ul li{
+        font-size: 1.25rem;
+        padding: 0;
+    }
+
+    .container-r li a{
+        opacity: 0;
+        font-size: 14px;
+        margin-left: -50px;
+    }
+
+    .name h1{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft h3{
+        font-size: 1.15rem;
+    }
+
+    .inf-sft span i{
+        font-size: 0.75rem;
+    }
+
+    .inf-sft p{
+        font-size: 0.9rem;
+    }
+
+    .inf-sft button{
+        padding: 5px 10px;
+    }
+
+    .inf-sft button a{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .inf-sft ul li{
+        font-size: 0.9rem;
+    }
+
+    .ps h3{
+        font-size: 1.15rem;
+    }
+
+    .ps ul li{
+        font-size: 0.9rem;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 480px){
+    html{
+        width: 100%;
+        margin: auto;
+        background: none;
+    }
+
+    body{
+        padding: 10px;
+        margin: 20px;
+        box-shadow: none;
+    }
+
+    header{
+        margin: 5px;
+    }
+
+    .container-l ul li{
+        font-size: 0.85rem;
+    }
+
+    .container-r ul li{
+        font-size: 1.25rem;
+        padding: 0;
+    }
+
+    .container-r li a{
+        opacity: 0;
+        font-size: 10px;
+        margin-left: -50px;
+    }
+
+    .name h1{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft h3{
+        font-size: 1rem;
+    }
+
+    .inf-sft span i{
+        font-size: 0.75rem;
+    }
+
+    .inf-sft p{
+        font-size: 0.75rem;
+    }
+
+    .inf-sft button{
+        padding: 5px 10px;
+    }
+
+    .inf-sft button a{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .inf-sft ul li{
+        font-size: 0.85rem;
+    }
+
+    .ps h3{
+        font-size: 1rem;
+    }
+
+    .ps ul li{
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html{
+        width: 100%;
+        margin: auto;
+        background: none;
+    }
+
+    body{
+        padding: 10px;
+        margin: 20px;
+        box-shadow: none;
+    }
+
+    header{
+        margin: 5px;
+    }
+
+    .container-l ul li{
+        font-size: 0.85rem;
+    }
+
+    .container-r ul li{
+        font-size: 1.25rem;
+        padding: 0;
+    }
+
+    .container-r li a{
+        opacity: 0;
+        font-size: 10px;
+        margin-left: -50px;
+    }
+
+    .name h1{
+        font-size: 1.5rem;
+    }
+
+    .inf-sft h3{
+        font-size: 1rem;
+    }
+
+    .inf-sft span i{
+        font-size: 0.75rem;
+    }
+
+    .inf-sft p{
+        font-size: 0.75rem;
+    }
+
+    .inf-sft button{
+        padding: 5px 10px;
+    }
+
+    .inf-sft button a{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    .inf-sft ul li{
+        font-size: 0.85rem;
+    }
+
+    .ps h3{
+        font-size: 1rem;
+    }
+
+    .ps ul li{
+        font-size: 0.85rem;
+    }
+}
+
+/* Media Screen end */
